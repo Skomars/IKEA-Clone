@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>IKEA - Möbler, inredning och inspiration - IKEA</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Välkommen till IKEA Sverige. Här hittar du allt inom inredning, möbler, vitvaror och inspiration. Hitta även ditt lokala IKEA varuhus eller handla online."
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom Stylesheet/script -->
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="top-message">
+      <a href="" class="message">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-right-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          />
+        </svg>
+        <div>Månadens IKEA Family erbjudanden</div>
+      </a>
+
+      <a href="" class="message">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-right-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          />
+        </svg>
+        <div>Kostnadsfri köksplanering — där det passar dig</div>
+      </a>
+
+      <a href="" class="message">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-right-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          />
+        </svg>
+        <div>Se höstens alla nyheter</div>
+      </a>
+    </div>
+    <header class="site-header">
+      <div class="sticky">
+        <div>
+          <a href="">
+            <img
+              src="https://www.ikea.com/se/sv/static/ikea-logo.f7d9229f806b59ec64cb.svg"
+              alt="Ikea logotype"
+          /></a>
+        </div>
+        <!-- Hidden in mobile view  -->
+        <div class="search-desktop">
+          <form>
+            <i class="bi bi-search"></i>
+            <input type="search" name="q" placeholder="Vad letar du efter?" />
+            <button class="img-search">
+              <i class="bi bi-camera"></i>
+            </button>
+          </form>
+        </div>
+        <div class="main-icons">
+          <a href="" class="register-wrapper"
+            ><i class="bi bi-person"></i>
+            <div class="register">Logga in/Registrera dig</div>
+          </a>
+          <a href=""><i class="bi bi-heart"></i></a>
+          <a href=""><i class="bi bi-basket3"></i></a>
+          <a href=""><i class="bi bi-list"></i></a>
+        </div>
+      </div>
+      <div class="search-mobile">
+        <form>
+          <i class="bi bi-search"></i>
+          <input
+            type="search"
+            name="q"
+            placeholder="Vad letar du efter?"
+            title="Sök på IKEA med hjälp av ett foto"
+          />
+          <i class="bi bi-camera tooltip"></i>
+        </form>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Just nu</a></li>
+          <li><a href="#">Produkter</a></li>
+          <li><a href="#">Rum</a></li>
+        </ul>
+        <ul class="items-modal">
+          <li class="icons-modal">
+            <button class="modal-button" onclick="openModal()">
+              <i class="bi bi-truck"></i>
+              <div>302 59</div>
+            </button>
+          </li>
+          <li class="icons-modal">
+            <button class="modal-button" onclick="openModal()">
+              <i class="bi bi-shop"></i>
+              <div>Helsingborg</div>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-teaser">
+          <div class="hero-text">
+            <h2>Välkomna höstens nyheter!</h2>
+            <p>
+              Höstens nyheter börjar fyllas på i våra lager och varuhus. Hos oss
+              hittar du nyheterna som gör att du kan förnya ditt hem med små
+              medel. Låt säsongens favoriter få flytta hem till dig!
+            </p>
+          </div>
+          <div>
+            <a href="">Se höstens nyheter</a>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="hero-img-1">
+            <a href="">
+              <img
+                src="https://www.ikea.com/ext/ingkadam/m/78261e50d0fdaf03/original/PH186977-crop002.jpg?f=xxl"
+                alt="Vardagsrum"
+              />
+
+              <div class="tag">
+                <div class="content-top">
+                  <div class="text">
+                    <div class="tag-highlight">Nytt</div>
+                    <div class="tag-title">Tuvsäv</div>
+                    <div class="tag-description">Kuddfodral</div>
+                  </div>
+                  <div class="arrow">
+                    <i class="bi bi-caret-right"></i>
+                  </div>
+                </div>
+                <div class="content-bottom">
+                  <div class="tag-price">79:-</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="hero-img-2">
+            <a href="">
+              <img
+                src="https://www.ikea.com/images/nytt-i-vitt-pa-en-orange-bakgrund-ddd51399c7ac0f53dba24b4508fb5de7.jpg?f=s"
+                alt="Nytt på IKEA"
+            /></a>
+          </div>
+
+          <div class="hero-img-3">
+            <a href=""
+              ><img
+                src="https://www.ikea.com/ext/ingkadam/m/d100e10a1080648/original/PH188697.jpg?f=s"
+                alt="Vit lampa"
+            /></a>
+          </div>
+
+          <div class="hero-img-4">
+            <a href=""
+              ><img
+                src="https://www.ikea.com/ext/ingkadam/m/7f0852506dd8e64b/original/PE865797.jpg?f=s"
+                alt="Kaffebord"
+            /></a>
+          </div>
+
+          <div class="hero-img-5">
+            <a href=""
+              ><img
+                src="https://www.ikea.com/ext/ingkadam/m/7df07a0642b3c03c/original/PH187049-crop001.jpg?f=s"
+                alt="HAnddukar"
+            /></a>
+          </div>
+        </div>
+        <div class="link-mobile">
+          <a href="">
+            <div>Se höstens nyheter</div>
+            <div><i class="bi bi-caret-right"></i></div>
+          </a>
+          <hr />
+        </div>
+      </section>
+      <section class="promotion-wrapper">
+        <h2>Just nu på IKEA</h2>
+        <div class="promotions">
+          <a href="" class="card">
+            <img
+              src="https://www.ikea.com/ext/ingkadam/m/69e4713d87d6bb53/original/PH186502.jpg?f=xxxl"
+              class="card-img-top"
+              alt="Kollektion Obegränsad"
+            />
+            <div class="card-body card-1">
+              <div class="text">
+                <h5 class="card-title">Hitta ditt sound med OBEGRÄNSAD</h5>
+                <p class="card-text">
+                  Den helsvarta kollektionen OBEGRÄNSAD är designad i samarbete
+                  med musiklegenderna Swedish House Mafia och är en tillfällig
+                  kollektion som kommer i begränsad upplaga. Nytt! OBEGRÄNSAD
+                  väska, svart, 44L 49:-.
+                </p>
+              </div>
+              <div class="arrow-icon">
+                <i class="bi bi-arrow-right-circle"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="card">
+            <img
+              src="https://www.ikea.com/ext/ingkadam/m/3e204a21e4b70cf2/original/PH179994-crop001.jpg?f=xxxl"
+              class="card-img-top"
+              alt="En svart väska"
+            />
+            <div class="card-body card-2">
+              <div class="text">
+                <h5 class="card-title">Missa inte månadens erbjudanden</h5>
+                <p class="card-text">
+                  Just nu får du som är, eller blir, IKEA Family medlem bland
+                  annat 3 för 2 på alla muggar och koppar. IKEA 365 mugg 20:-.
+                </p>
+              </div>
+              <div class="arrow-icon">
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="card">
+            <img
+              src="https://www.ikea.com/ext/ingkadam/m/2bd32b7d527d973a/original/PH186380-crop002.jpg?f=xxxl"
+              class="card-img-top"
+              alt="Te som hälls uoo i en kopp"
+            />
+            <div class="card-body card-3">
+              <div calss="text">
+                <h5 class="card-title">
+                  Så kan du spara både energi och pengar
+                </h5>
+                <p class="card-text">
+                  Vi vill inspirera och göra det möjligt för så många människor
+                  som möjligt att leva mer hållbart. Nytt! SPIKKLUBBA
+                  kuddfodral, 50x50 cm 49:-.
+                </p>
+              </div>
+              <div class="arrow-icon">
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="offer-img">
+          <a href="">
+            <img
+              src="https://www.ikea.com/ext/ingkadam/m/2d560ecfd7f8882b/original/PH188527.jpg?f=xxxl"
+              alt="Ljust kök"
+          /></a>
+        </div>
+        <div class="offer-info">
+          <h2>5 för 4 på alla vitvaror</h2>
+          <p>
+            Börja resan till ditt drömkök i höst! Vi hjälper dig hela vägen från
+            idé till färdig lösning. Just nu får du som är (eller blir)
+            <span>IKEA Family</span> medlem fem vitvaror till priset av fyra.
+          </p>
+          <p>
+            Erbjudandet gäller 30/9–30/11 2022 så långt lagret räcker. Du får
+            varan med lägst pris på köpet.
+          </p>
+          <a href="" class="offer-button">Till erbjudandet</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="top-container">
+          <div class="feature-section">
+            <div class="footer-featurelinks">
+              <h3>Gå med i IKEA Family</h3>
+              <p>
+                Ge dina idéer nytt liv med erbjudanden, inspiration och massor
+                av aktiviteter i våra varuhus - helt kostnadsfritt.
+              </p>
+
+              <a href="" class="footer-button">Bli medlem här</a>
+            </div>
+            <div class="footer-featurelinks">
+              <h3>IKEA för företag</h3>
+              <p>
+                Våra företagsexperter hjälper till med flexibla, prisvärda och
+                mer hållbara lösningar.
+              </p>
+
+              <a href="" class="footer-button">IKEA för företag</a>
+            </div>
+          </div>
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <h4>Ditt IKEA Family</h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="https://www.ikea.com/se/sv/loyalty-hub"
+                        >Logga in</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.ikea.com/se/sv/favourites/"
+                        >Min inköpslista</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://order.ikea.com/se/sv/purchases/lookup/?_ga=2.114120835.521852060.1665058528-1961504111.1663658051&_gl=1*oakp92*_ga*MTk2MTUwNDExMS4xNjYzNjU4MDUx*_ga_S4EX53B760*MTY2NTEzMDE0MS4zNS4wLjE2NjUxMzAxNDEuMC4wLjA."
+                        >Följ min order</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <h4>Handla på IKEA</h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/stores/"
+                      >Varuhus & öppettider</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/payment-options/"
+                      >Betalningsalternativ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/services/delivery/"
+                      >Leveransalternativ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/services/planning-consultation/"
+                      >Personlig planering</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/planners/"
+                      >Planeringsverktyg</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/cat/produkter-products/"
+                      >Hela sortimentet</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/product-guides/"
+                      >Produktguider</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/brochures/"
+                      >Broschyrer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/payment-options/presentkort-pubb34d96b0"
+                      >Presentkort</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/stores/restaurant/"
+                      >Restaurangen</a
+                    >
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <h4>Kundservice</h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/customer-service/"
+                      >Kundservice</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/customer-service/faq/"
+                      >Vanliga frågor</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/services/"
+                      >Servicetjänster</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/returns-claims/"
+                      >Retur & reklamation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/spare-parts/"
+                      >Reservdelar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/terms-conditions/koep-och-leveransvillkor-pub4a74d9d0"
+                      >Köp & leveransvillkor</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/customer-service/ge-ikea-feedback-pubfb035e40"
+                      >Ge IKEA feedback</a
+                    >
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  <h4>Det här är IKEA</h4>
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/this-is-ikea/work-with-us/"
+                      >Jobba på IKEA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/this-is-ikea/sustainable-everyday/"
+                      >En mer hållbar vardag</a
+                    >
+                  </li>
+                  <li><a href="https://ikeamuseum.com/sv/">IKEA Museum</a></li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/this-is-ikea/design/"
+                      >Livet hemma</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/this-is-ikea/climate-environment/"
+                      >Klimat och hållbarhet</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikeafoundation.org/"
+                      >IKEA Foundation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ikea.com/se/sv/this-is-ikea/community-engagement/"
+                      >Socialt ansvar</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/this-is-ikea/about-us/"
+                      >Om oss</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.ikea.com/se/sv/newsroom/">Pressrum</a>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Hidden in mobile view  -->
+          <div class="links-desktop">
+            <div class="link-section">
+              <h4>Ditt IKEA Family</h4>
+              <ul>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/loyalty-hub">Logga in</a>
+                </li>
+
+                <li>
+                  <a href="https://www.ikea.com/se/sv/favourites/"
+                    >Min inköpslista</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://order.ikea.com/se/sv/purchases/lookup/?_ga=2.114120835.521852060.1665058528-1961504111.1663658051&_gl=1*oakp92*_ga*MTk2MTUwNDExMS4xNjYzNjU4MDUx*_ga_S4EX53B760*MTY2NTEzMDE0MS4zNS4wLjE2NjUxMzAxNDEuMC4wLjA."
+                    >Följ min order</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-section">
+              <h4>Handla på IKEA</h4>
+              <ul>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/stores/"
+                    >Varuhus & öppettider</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/payment-options/"
+                    >Betalningsalternativ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/services/delivery/"
+                    >Leveransalternativ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/services/planning-consultation/"
+                    >Personlig planering</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/planners/"
+                    >Planeringsverktyg</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/cat/produkter-products/"
+                    >Hela sortimentet</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/product-guides/"
+                    >Produktguider</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/brochures/"
+                    >Broschyrer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/payment-options/presentkort-pubb34d96b0"
+                    >Presentkort</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/stores/restaurant/"
+                    >Restaurangen</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-section">
+              <h4>Kundservice</h4>
+              <ul>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/customer-service/"
+                    >Kundservice</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/customer-service/faq/"
+                    >Vanliga frågor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/services/"
+                    >Servicetjänster</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/returns-claims/"
+                    >Retur & reklamation</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/spare-parts/"
+                    >Reservdelar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/terms-conditions/koep-och-leveransvillkor-pub4a74d9d0"
+                    >Köp & leveransvillkor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/customer-service/ge-ikea-feedback-pubfb035e40"
+                    >Ge IKEA feedback</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-section">
+              <h4>Det här är IKEA</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/this-is-ikea/work-with-us/"
+                    >Jobba på IKEA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/this-is-ikea/sustainable-everyday/"
+                    >En mer hållbar vardag</a
+                  >
+                </li>
+                <li><a href="https://ikeamuseum.com/sv/">IKEA Museum</a></li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/this-is-ikea/design/"
+                    >Livet hemma</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/this-is-ikea/climate-environment/"
+                    >Klimat och hållbarhet</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikeafoundation.org/">IKEA Foundation</a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.ikea.com/se/sv/this-is-ikea/community-engagement/"
+                    >Socialt ansvar</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/this-is-ikea/about-us/"
+                    >Om oss</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.ikea.com/se/sv/newsroom/">Pressrum</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div footer-links>
+          <div class="links-social">
+            <ul>
+              <li class="hidden">
+                <a href="https://www.facebook.com/ikeasverige/"
+                  ><img src="/icons/fb.png" alt="facebook"
+                /></a>
+              </li>
+              <li class="hidden">
+                <a href="https://www.instagram.com/ikeasverige/"
+                  ><img src="/icons/insta.png" alt="instagram"
+                /></a>
+              </li>
+              <li class="hidden">
+                <a href="https://www.pinterest.com/ikeasverige/"
+                  ><img src="/icons/pin.png" alt="pinterest"
+                /></a>
+              </li>
+              <li class="hidden">
+                <a href="https://www.youtube.com/user/IKEASWE"
+                  ><img src="/icons/twitter.png" alt="youtube"
+                /></a>
+              </li>
+              <li class="hidden">
+                <a href="https://twitter.com/ikeasverige"
+                  ><img src="/icons/youtube.png" alt="twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="payments">
+            <ul>
+              <li>
+                <div class="payment">
+                  <img src="/icons/visa.svg" alt="visa" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/master-card.svg" alt="master-card" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img
+                    src="/icons/american-express.svg"
+                    alt="american-express"
+                  />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/diners-club.svg" alt="diners-club" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/ikano.svg" alt="ikano" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/klarna.svg" alt="klarna" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/swish.svg" alt="swish" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/bankid.svg" alt="bankid" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/apple-pay.svg" alt="apple-pay" />
+                </div>
+              </li>
+              <li>
+                <div class="payment">
+                  <img src="/icons/visa-secure.svg" alt="visa-secure" />
+                </div>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="/icons/master-card-id-check.svg"
+                    alt="master-card-id-check"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="language-button">
+          <a href="https://www.ikea.com/">
+            <img src="icons/globe2.svg" alt="Byt språk" /><span
+              >Ändra land</span
+            ></a
+          >
+        </div>
+
+        <div class="footer-legals">
+          <div class="copyright">
+            <small>&copy; Inter IKEA Systems B.V. 1999-2022 </small>
+          </div>
+
+          <div class="legallinks">
+            <ul>
+              <li>
+                <a
+                  href="https://www.ikea.com/se/sv/customer-service/integritetspolicy-pub019133cd"
+                  >Integritetspolicy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ikea.com/se/sv/customer-service/ikea-cookie-policy-pub82f22701"
+                  >Cookiepolicy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ikea.com/se/sv/customer-service/ansvarsfullt-avsloejandepolicy-pub8787a730"
+                  >Ansvarsfullt avslöjandepolicy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ikea.com/se/sv/customer-service/koep-och-leveransvillkor-pubacf27251"
+                  >Inställningar för Cookies</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ikea.com/se/sv/customer-service/koep-och-leveransvillkor-pubacf27251"
+                  >Köp- & leveransvillkor</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ikea.com/se/sv/customer-service/upphovsraett-och-kaennetecken-pub72297971"
+                  >Bolagsinformation</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

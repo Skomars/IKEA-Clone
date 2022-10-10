@@ -1,0 +1,138 @@
+.promotion-wrapper h2 {
+  margin: 2rem auto 0 auto;
+  max-width: 1400px;
+  padding: 0 40px;
+}
+
+.promotions {
+  display: flex;
+  margin: 10px auto 50px auto;
+  max-width: 1400px;
+  padding: 0 40px;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 2rem;
+  height: 100%;
+  flex-wrap: nowrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 33%;
+}
+
+.card-1 h5 {
+  color: white;
+}
+
+.card-1 p {
+  color: white;
+}
+
+.card-2 h5 {
+  color: rgb(0, 0, 0);
+}
+
+.card-2 p {
+  color: rgb(0, 0, 0);
+}
+
+.card-3 h5 {
+  color: rgb(0, 0, 0);
+}
+
+.card-3 p {
+  color: rgb(0, 0, 0);
+}
+
+.card-1 {
+  background-color: #111111;
+}
+.card-2 {
+  background-color: #f5f5f5;
+}
+
+.card-3 {
+  background-color: #95918d;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+}
+
+.card img {
+  height: 60%;
+}
+
+.promotions .bi {
+  font-size: 40px;
+}
+
+.bi-arrow-right-circle {
+  color: rgb(255, 255, 255);
+}
+
+.bi-arrow-right-circle-fill {
+  color: rgb(0, 0, 0);
+}
+
+.bi-arrow-right-circle:hover,
+.bi-arrow-right-circle-fill:hover {
+  opacity: 0.7;
+}
+
+.promotions img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card img {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.card:nth-child(1):hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+.card:nth-child(2):hover,
+.card:nth-child(3):hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.card:nth-child(1):hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+/* Breakpoint 1 */
+@media (width < 800px) {
+  .promotions .card:last-child {
+    display: none;
+  }
+}
+
+.arrow-icon {
+  margin-top: 5rem;
+}
+
+/* Breakpoint 1 */
+@media (width < 600px) {
+  .promotions .card:nth-child(2) {
+    display: none;
+  }
+
+  .card img {
+    height: 50%;
+    width: 100%;
+  }
+}

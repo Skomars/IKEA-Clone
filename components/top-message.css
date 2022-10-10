@@ -1,0 +1,61 @@
+.top-message a {
+  color: white;
+}
+
+.top-message a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.message svg:hover {
+  opacity: 1;
+}
+
+.top-message {
+  display: flex;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  align-items: top;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0 auto;
+  font-size: 0.8rem;
+}
+
+.top-message {
+  flex-grow: 1;
+  align-items: center;
+}
+
+.top-message > a {
+  display: flex;
+  align-items: center;
+}
+
+.top-message > a:nth-child(2) {
+  display: inline-flex;
+  align-items: center;
+}
+.top-message > a:nth-child(3) {
+  display: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.top-message svg {
+  margin-right: 10px;
+}
+.top-message > a {
+  display: flex;
+  align-items: center;
+}
+
+@media (width < 800px) {
+  .top-message > a:nth-child(2) {
+    display: none;
+  }
+  .top-message > a:nth-child(3) {
+    display: none;
+  }
+}
